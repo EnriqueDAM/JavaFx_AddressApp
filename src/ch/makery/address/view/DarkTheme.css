@@ -1,5 +1,11 @@
+.root {
+	-fx-accent:#E0177F;
+	-fx-focus-color:#E0177F;
+}
 .background {
     -fx-background-color: #1d1d1d;
+    -fx-background-image:url(file:res/disco.jpg);
+    -fx-background-size:cover;
 }
 
 .label {
@@ -24,9 +30,10 @@
 }
 
 .table-view {
-    -fx-base: #1d1d1d;
-    -fx-control-inner-background: #1d1d1d;
-    -fx-background-color: #1d1d1d;
+    -fx-base: #751B49;
+    -fx-control-inner-background: #751B49;
+    -fx-background-color: -fx-focus-color;
+    -fx-background-image:url(file:res/disco.jpg);
     -fx-table-cell-border-color: transparent;
     -fx-table-header-border-color: transparent;
     -fx-padding: 5;
@@ -61,8 +68,8 @@
 }
 
 .split-pane:horizontal > .split-pane-divider {
-    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
-    -fx-background-color: transparent, derive(#1d1d1d,20%);
+    -fx-border-color: transparent white transparent white;
+    -fx-background-color: transparent, derive(#1d1d1d,10%);
 }
 
 .split-pane {
@@ -70,11 +77,12 @@
 }
 
 .menu-bar {
-    -fx-background-color: derive(#1d1d1d,20%);
+    -fx-background-color: derive(#1d1d1d,10%);
+    -fx-background-image:url(file:res/disco.jpg);
 }
 
 .context-menu {
-    -fx-background-color: derive(#1d1d1d,50%);
+    -fx-background-color: derive(#1d1d1d,5%);
 }
 
 .menu-bar .label {
@@ -103,7 +111,7 @@
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
     -fx-background-radius: 0;
-    -fx-background-color: #1d1d1d;
+    -fx-background-color: -fx-focus-color;
     -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;
     -fx-text-fill: #d8d8d8;
@@ -111,12 +119,12 @@
 }
 
 .button:hover {
-    -fx-background-color: #3a3a3a;
+    -fx-background-color: #751B49;
 }
 
 .button:pressed, .button:default:hover:pressed {
-  -fx-background-color: white;
-  -fx-text-fill: #1d1d1d;
+  -fx-background-color: derive(#751B49,40%);
+  -fx-text-fill: white;
 }
 
 .button:focused {
@@ -131,13 +139,4 @@
     -fx-opacity: 0.4;
     -fx-background-color: #1d1d1d;
     -fx-text-fill: white;
-}
-
-.button:default {
-    -fx-background-color: -fx-focus-color;
-    -fx-text-fill: #ffffff;
-}
-
-.button:default:hover {
-    -fx-background-color: derive(-fx-focus-color,30%);
 }
