@@ -11,7 +11,10 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-
+/**
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
+ */
 public class Person {
 	private final StringProperty firstName;
 	private final StringProperty lastName;
@@ -28,7 +31,7 @@ public class Person {
 	}
 
 	/**
-	 * Constructor with some initial data.
+	 * Constructor with some initial data + getters and setters
 	 *
 	 * @param firstName
 	 * @param lastName
