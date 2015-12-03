@@ -1,10 +1,15 @@
 package ch.makery.address.view;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
 import org.controlsfx.dialog.Dialogs;
+
 import ch.makery.address.control.MainApp;
 import ch.makery.address.model.Person;
 import ch.makery.address.util.DateUtil;
@@ -29,6 +34,7 @@ public class PersonOverviewController {
 	private Label cityLabel;
 	@FXML
 	private Label birthdayLabel;
+	
 
 	// Reference to the main application.
 	private MainApp mainApp;

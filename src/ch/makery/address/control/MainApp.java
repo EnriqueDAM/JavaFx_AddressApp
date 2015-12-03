@@ -68,7 +68,7 @@ public class MainApp extends Application {
 		this.primaryStage.setTitle("AddressApp");
 
 		// Set the application icon.
-		this.primaryStage.getIcons().add(new Image("file:res/group-01.png"));
+		this.primaryStage.getIcons().add(new Image("file:res/disco_icon.jpg"));
 
 		initRootLayout();
 
@@ -163,7 +163,7 @@ public class MainApp extends Application {
 			// Create the dialog Stage.
 			Stage dialogStage = new Stage();
 			dialogStage.setTitle("Edit Person");
-			dialogStage.getIcons().add(new Image("file:res/group-01.png"));
+			dialogStage.getIcons().add(new Image("file:res/disco_icon.jpg"));
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			dialogStage.initOwner(primaryStage);
 			Scene scene = new Scene(page);
@@ -288,7 +288,7 @@ public class MainApp extends Application {
 			dialogStage.setTitle("Birthday Statistics");
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			dialogStage.initOwner(primaryStage);
-			dialogStage.getIcons().add(new Image("file:res/1447718662_Calendar.png"));
+			dialogStage.getIcons().add(new Image("file:res/disco_icon.jpg"));
 			Scene scene = new Scene(page);
 			dialogStage.setScene(scene);
 

@@ -120,6 +120,7 @@
 
 .button:hover {
     -fx-background-color: #751B49;
+    -fx-background-image:url(file:res/circle.jpg);
 }
 
 .button:pressed, .button:default:hover:pressed {
