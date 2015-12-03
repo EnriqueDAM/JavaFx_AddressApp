@@ -6,10 +6,12 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
+ * 
  * Helper class to wrap a list of persons. This is used for saving the
  * list of persons to XML.
  *
- * @author Marco Jakob
  */
 @XmlRootElement(name = "persons")
 public class PersonListWrapper {
