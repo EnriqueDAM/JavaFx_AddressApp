@@ -13,7 +13,8 @@ import ch.makery.address.util.DateUtil;
 /**
  * Dialog to edit details of a person.
  *
- * @author Marco Jakob
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
  */
 public class PersonEditDialogController {
 
