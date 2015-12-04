@@ -14,7 +14,8 @@ import ch.makery.address.control.MainApp;
  * application layout containing a menu bar and space where other JavaFX
  * elements can be placed.
  *
- * @author Marco Jakob
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
  */
 public class RootLayoutController {
 
