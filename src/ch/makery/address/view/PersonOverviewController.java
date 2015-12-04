@@ -14,6 +14,10 @@ import ch.makery.address.control.MainApp;
 import ch.makery.address.model.Person;
 import ch.makery.address.util.DateUtil;
 
+/**
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
+ */
 public class PersonOverviewController {
 	@FXML
 	private TableView<Person> personTable;
