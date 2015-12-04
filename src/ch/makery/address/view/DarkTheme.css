@@ -1,7 +1,19 @@
+/**
+ *
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
+ *
+ *
+ *
+ * Root created to set default accent color for all view items, taken from modena.css.
+ */
 .root {
 	-fx-accent:#E0177F;
 	-fx-focus-color:#E0177F;
 }
+/**
+ * Background image added with cover size value in order to fit it to window size.
+ */
 .background {
     -fx-background-color: #1d1d1d;
     -fx-background-image:url(file:res/disco.jpg);
@@ -29,6 +41,9 @@
     -fx-opacity: 1;
 }
 
+/**
+ * Image disco.jpg set as table-view background.
+ */
 .table-view {
     -fx-base: #751B49;
     -fx-control-inner-background: #751B49;
@@ -63,10 +78,16 @@
     -fx-opacity: 1;
 }
 
+/**
+ * Taking fx-focus-color set in root for selected cell in table view.
+ */
 .table-view:focused .table-row-cell:filled:focused:selected {
     -fx-background-color: -fx-focus-color;
 }
 
+/**
+ * Derived black for split-pane divider.
+ */
 .split-pane:horizontal > .split-pane-divider {
     -fx-border-color: transparent white transparent white;
     -fx-background-color: transparent, derive(#1d1d1d,10%);
@@ -76,6 +97,9 @@
     -fx-padding: 1 0 0 0;
 }
 
+/**
+ * Image disco.jpg set as menu-bar background.
+ */
 .menu-bar {
     -fx-background-color: derive(#1d1d1d,10%);
     -fx-background-image:url(file:res/disco.jpg);
@@ -101,10 +125,8 @@
     -fx-font-family: "Segoe UI Semibold";
 }
 
-/*
- * Metro style Push Button
- * Author: Pedro Duque Vieira
- * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
+/**
+ * Setting a default button style (border color,width, font family, etc.).
  */
 .button {
     -fx-padding: 5 22 5 22;
@@ -118,11 +140,17 @@
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }
 
+/**
+ * Image circle.jpg set as table-view background.
+ */
 .button:hover {
     -fx-background-color: #751B49;
     -fx-background-image:url(file:res/circle.jpg);
 }
 
+/**
+ * Setting up a change color when any button is pressed.
+ */
 .button:pressed, .button:default:hover:pressed {
   -fx-background-color: derive(#751B49,40%);
   -fx-text-fill: white;

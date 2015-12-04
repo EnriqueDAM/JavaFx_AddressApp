@@ -27,6 +27,12 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+/**
+ *
+ * @author Enrique Vaquero Torres
+ * @author Manuel San Antonio Morales
+ *
+ */
 public class MainApp extends Application {
 
 	private Stage primaryStage;
@@ -81,6 +87,7 @@ public class MainApp extends Application {
 	/**
 	 * Initializes the root layout and tries to load the last opened person
 	 * file.
+	 *
 	 */
 	public void initRootLayout() {
 		try {
