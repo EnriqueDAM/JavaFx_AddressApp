@@ -15,6 +15,7 @@ import ch.makery.address.util.DateUtil;
  *
  * @author Enrique Vaquero Torres
  * @author Manuel San Antonio Morales
+ * 
  */
 public class PersonEditDialogController {
 
