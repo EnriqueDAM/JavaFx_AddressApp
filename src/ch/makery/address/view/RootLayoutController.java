@@ -16,6 +16,7 @@ import ch.makery.address.control.MainApp;
  *
  * @author Enrique Vaquero Torres
  * @author Manuel San Antonio Morales
+ * 
  */
 public class RootLayoutController {
 
